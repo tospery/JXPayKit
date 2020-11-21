@@ -1,7 +1,12 @@
 use_frameworks!
 
+platform :ios, '10.0'
+
 target 'JXPayKit_Example' do
-  pod 'JXPayKit', :path => '../'
+  pod 'JXPayKit/Core', :path => '../'
+  pod 'JXPayKit/ApplePay', :path => '../'
+  pod 'JXPayKit/WXPay', :path => '../'
+  pod 'JXPayKit/Alipay', :path => '../'
 
   target 'JXPayKit_Tests' do
     inherit! :search_paths

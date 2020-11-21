@@ -1,8 +1,8 @@
 {
   "name": "JXPayKit",
-  "version": "0.1.0",
-  "summary": "A short description of JXPayKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.0.3",
+  "summary": "iOS Pay Framework.",
+  "description": "iOS Pay Framework using ObjC.",
   "homepage": "https://github.com/tospery/JXPayKit",
   "license": {
     "type": "MIT",
@@ -13,10 +13,49 @@
   },
   "source": {
     "git": "https://github.com/tospery/JXPayKit.git",
-    "tag": "0.1.0"
+    "tag": "0.0.3"
   },
+  "requires_arc": true,
+  "static_framework": true,
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "JXPayKit/Classes/**/*"
+  "frameworks": "Foundation",
+  "default_subspecs": "Core",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "JXPayKit/*.{h,m}"
+    },
+    {
+      "name": "ApplePay",
+      "source_files": "JXPayKit/ApplePay/*.{h,m}",
+      "dependencies": {
+        "JXPayKit/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "WXPay",
+      "source_files": "JXPayKit/WXPay/*.{h,m}",
+      "dependencies": {
+        "WechatOpenSDK": [
+          "1.8.7.1"
+        ],
+        "JXPayKit/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "Alipay",
+      "source_files": "JXPayKit/Alipay/*.{h,m}",
+      "dependencies": {
+        "JXPayKit/Core": [
+
+        ]
+      }
+    }
+  ]
 }

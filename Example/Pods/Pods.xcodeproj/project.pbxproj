@@ -6,29 +6,49 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A4B299C8AE02758994585407435CEFB2 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = WechatOpenSDK;
+			productName = WechatOpenSDK;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		0F94B5150A36C2F9699A29B1CCB81EAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		1343C600DA85453102CE87F856C8D9F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2C42797BBA5826BA42C4FE89B4E5D0D8 /* Pods-JXPayKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B89E32B3B95B59C70F008F6E579B4C29 /* Pods-JXPayKit_Example-dummy.m */; };
-		53F825CA3CB74180E64B1C55F06A2157 /* JXPayKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A584F2895195886AEE3789BFF70DA08A /* JXPayKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79A396082568D0A9001873B1 /* PayKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A396072568D0A9001873B1 /* PayKit.swift */; };
-		79A396552568DB7E001873B1 /* WXPayProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A396542568DB7E001873B1 /* WXPayProvider.swift */; };
-		79A3965F2568DBA0001873B1 /* AlipayProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A3965E2568DBA0001873B1 /* AlipayProvider.swift */; };
-		79A396672568DBB0001873B1 /* ApplePayProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A396662568DBB0001873B1 /* ApplePayProvider.swift */; };
-		7CE420BCCE224DCFC9CA685F18E8A2F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		97F76B0A64BD9F453B233598A077EE46 /* Pods-JXPayKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC78A9D0702A41F1CDCA2606B6D914E /* Pods-JXPayKit_Tests-dummy.m */; };
-		B0E35B8977A4CCC9327DD6AE0B8B0F4B /* JXPayKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC220295CC4A611D33E085E38CF7A40 /* JXPayKit-dummy.m */; };
-		BE40736B5A0008F0E932DD29B3AA79A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C5A9BDE3260117D05FDF0A5F2BADD80C /* Pods-JXPayKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCF1CCD08981D6E0E06BE73E269B5554 /* Pods-JXPayKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0E5478110EEB49847A41B9E4BA5DFB5 /* Pods-JXPayKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8996600498A1CEC433DD1D2BFE906E0 /* Pods-JXPayKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AE30209B98CFB72698BB980CBC67EE4 /* JXWXPayProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F08C6CE0C8F383A179A7495BE688123 /* JXWXPayProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2164284EF42E8BCCA7D91D083DECA98E /* JXAlipayProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 2109C61922EA80F6E5F3164DB418D62F /* JXAlipayProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7925BDB17D435AB6F2BE7AEAD46B7F9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		79520B6EEDEC46FA54E5C27D27546001 /* JXPayKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F869029BCC35EFF7C92CC0BB2D2B3269 /* JXPayKit-dummy.m */; };
+		79DA64A1256905B9007906D8 /* JXPayProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DA649F256905B9007906D8 /* JXPayProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79DA64A2256905B9007906D8 /* JXPayProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DA64A0256905B9007906D8 /* JXPayProvider.m */; };
+		79DA64B0256909DE007906D8 /* JXPayError.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DA64AF256909DE007906D8 /* JXPayError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		930ECB4C8DA1B948590DFE77CDC937E0 /* JXApplePayProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC056E72B6C4DF063CF6FF431B8E5AB /* JXApplePayProvider.m */; };
+		97F76B0A64BD9F453B233598A077EE46 /* Pods-JXPayKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAB7801C439876B628C16EF3E76F27 /* Pods-JXPayKit_Tests-dummy.m */; };
+		9886C0860D08C472621BCA80B426D7CF /* Pods-JXPayKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB10BA92A42842F616ACB6822FFFD62D /* Pods-JXPayKit_Example-dummy.m */; };
+		A80DDEB94E48E1EF053C5D3BD477BC97 /* JXPayKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE5DADD8B4081B8E7AC383C2C2870AA /* JXPayKit.m */; };
+		BA5226503489196D9BF4FFFA502F3C19 /* JXPayKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E60C7F7952419673FF885699703DE91 /* JXPayKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5A9BDE3260117D05FDF0A5F2BADD80C /* Pods-JXPayKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1616F0D5528CFA4441B079DEDEB2E2E5 /* Pods-JXPayKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C723D9A1F514B5C4C3B3A379F90E0461 /* JXWXPayProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 814F9057544F77AE459D5F30E0B3EA28 /* JXWXPayProvider.m */; };
+		D2EBB9FDF6108678C070E95B2EE5B2A7 /* JXPayKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5942F14174D8585B4CD240879705C359 /* JXPayKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E055F940711FC7BCB83F407220365C92 /* JXAlipayProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8727371CADB63C1F507994DC454BFF15 /* JXAlipayProvider.m */; };
+		E79783C41E284C7AD31987154FF544F0 /* Pods-JXPayKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C88CA24E8347E1144E7A6734E82EA54 /* Pods-JXPayKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAF3CFDDEDB8E84CB51F024061BDE511 /* JXApplePayProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E69534F16251D5981694144DC79D67F /* JXApplePayProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		39B73EEC52C54C1DE555364A227C5E1D /* PBXContainerItemProxy */ = {
+		3D08178F1CA98ABD0B0DC65FEEF9FFA2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8ADA836FA5240BCEB0B7E6A384C5234D;
-			remoteInfo = JXPayKit;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
 		};
 		408B662037777076B4E4E4714C3FE2A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -37,56 +57,74 @@
 			remoteGlobalIDString = 815D22E70637DD69BC0572C172705C5D;
 			remoteInfo = "Pods-JXPayKit_Example";
 		};
+		96ABFA384973284E666AC04C59911E07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ADA836FA5240BCEB0B7E6A384C5234D;
+			remoteInfo = JXPayKit;
+		};
+		D62EC317C5BCF7A18ADD74D7B8691713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03915D12CA566581EDD04EEA3CBD0DFC /* Pods-JXPayKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JXPayKit_Example.modulemap"; sourceTree = "<group>"; };
-		0979ECD110470DCB61F42C675D634579 /* JXPayKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXPayKit.debug.xcconfig; sourceTree = "<group>"; };
-		0C638ECF8450FEB2552468DC2E23CEC2 /* Pods-JXPayKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXPayKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		13DAB1EAE2A192F762138911F69BDE54 /* JXPayKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JXPayKit.modulemap; sourceTree = "<group>"; };
-		14EFD2B9392C98DA9AC67911E1C45425 /* Pods-JXPayKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JXPayKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1FC220295CC4A611D33E085E38CF7A40 /* JXPayKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXPayKit-dummy.m"; sourceTree = "<group>"; };
-		2C4A0346A1B7CC97714A3BCA4C92404C /* JXPayKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JXPayKit-Info.plist"; sourceTree = "<group>"; };
+		002ECA031EDA0735E8557D43D0CD71FA /* JXPayKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXPayKit.debug.xcconfig; sourceTree = "<group>"; };
+		07B38B01AA1BB0CF77FF5BE75123ED3E /* Pods-JXPayKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXPayKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0B6FC9A16027DDC5EE4733F50585B2BA /* Pods-JXPayKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXPayKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1616F0D5528CFA4441B079DEDEB2E2E5 /* Pods-JXPayKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXPayKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1E69534F16251D5981694144DC79D67F /* JXApplePayProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXApplePayProvider.h; path = JXPayKit/ApplePay/JXApplePayProvider.h; sourceTree = "<group>"; };
+		2109C61922EA80F6E5F3164DB418D62F /* JXAlipayProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXAlipayProvider.h; path = JXPayKit/Alipay/JXAlipayProvider.h; sourceTree = "<group>"; };
+		2873E6C9DB84B5089CCB96579C886A97 /* Pods-JXPayKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JXPayKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C1ECF3398BC5FCC32A275998834380E /* Pods-JXPayKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JXPayKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2EFAB7801C439876B628C16EF3E76F27 /* Pods-JXPayKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXPayKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		2FC056E72B6C4DF063CF6FF431B8E5AB /* JXApplePayProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXApplePayProvider.m; path = JXPayKit/ApplePay/JXApplePayProvider.m; sourceTree = "<group>"; };
+		30BDAE1B5E0C61D231041F45D886AC95 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.7.1/libWeChatSDK.a; sourceTree = "<group>"; };
+		31CC07C51491CCA5F5079742B2CCFEDA /* JXPayKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JXPayKit.modulemap; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4517299E82826C2B45ACEB911F520CE4 /* Pods-JXPayKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXPayKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		3DF14C1137882BFDBFE3D846088EC9CD /* WechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
 		48E1DF537AAD3E67FF751DBA829343FF /* Pods_JXPayKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JXPayKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BC6945E27820E348F404D56317909B7 /* JXPayKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXPayKit-prefix.pch"; sourceTree = "<group>"; };
-		4CD00E4D413FED37100929DAA4E3F2CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		727E366CEF6AE4184C9D922B99AF88C3 /* Pods-JXPayKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXPayKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		79A396072568D0A9001873B1 /* PayKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PayKit.swift; path = JXPayKit/Classes/PayKit.swift; sourceTree = "<group>"; };
-		79A396542568DB7E001873B1 /* WXPayProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WXPayProvider.swift; path = JXPayKit/Classes/WXPay/WXPayProvider.swift; sourceTree = "<group>"; };
-		79A3965E2568DBA0001873B1 /* AlipayProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlipayProvider.swift; path = JXPayKit/Classes/Alipay/AlipayProvider.swift; sourceTree = "<group>"; };
-		79A396662568DBB0001873B1 /* ApplePayProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ApplePayProvider.swift; path = JXPayKit/Classes/ApplePay/ApplePayProvider.swift; sourceTree = "<group>"; };
-		8CC78A9D0702A41F1CDCA2606B6D914E /* Pods-JXPayKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXPayKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		96D1EE67DE71AA2CE5E9DADCA2306A49 /* Pods-JXPayKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JXPayKit_Tests.modulemap"; sourceTree = "<group>"; };
+		4D94BB26FCC42BDFDEEE3093C86E3C8B /* JXPayKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXPayKit-prefix.pch"; sourceTree = "<group>"; };
+		4FDEEF1AC3B4B5E986112D049FCBBA74 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		580E8850C5B1DF6E6522232C8F6C3D0E /* JXPayKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JXPayKit-Info.plist"; sourceTree = "<group>"; };
+		5942F14174D8585B4CD240879705C359 /* JXPayKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXPayKit.h; path = JXPayKit/JXPayKit.h; sourceTree = "<group>"; };
+		664A5A95C192C1C30FC0EE0FBD4405FF /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.7.1/WXApi.h; sourceTree = "<group>"; };
+		6A20403E38D94F39946C7A709DAFB72C /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.7.1/WechatAuthSDK.h; sourceTree = "<group>"; };
+		71AA876DFB47E47BF3BDD21B541649B0 /* Pods-JXPayKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXPayKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		727CB20FDA8FBDC470621079A7309F35 /* Pods-JXPayKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JXPayKit_Example.modulemap"; sourceTree = "<group>"; };
+		763E28CAF9EAAB20B9361FDF6E2B537A /* JXPayKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXPayKit.release.xcconfig; sourceTree = "<group>"; };
+		776207727499E584FF77AF45DFC6CF87 /* Pods-JXPayKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXPayKit_Example-Info.plist"; sourceTree = "<group>"; };
+		79DA649F256905B9007906D8 /* JXPayProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JXPayProvider.h; path = JXPayKit/JXPayProvider.h; sourceTree = "<group>"; };
+		79DA64A0256905B9007906D8 /* JXPayProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JXPayProvider.m; path = JXPayKit/JXPayProvider.m; sourceTree = "<group>"; };
+		79DA64AF256909DE007906D8 /* JXPayError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JXPayError.h; path = JXPayKit/JXPayError.h; sourceTree = "<group>"; };
+		7F08C6CE0C8F383A179A7495BE688123 /* JXWXPayProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXWXPayProvider.h; path = JXPayKit/WXPay/JXWXPayProvider.h; sourceTree = "<group>"; };
+		7FE5DADD8B4081B8E7AC383C2C2870AA /* JXPayKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXPayKit.m; path = JXPayKit/JXPayKit.m; sourceTree = "<group>"; };
+		814F9057544F77AE459D5F30E0B3EA28 /* JXWXPayProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXWXPayProvider.m; path = JXPayKit/WXPay/JXWXPayProvider.m; sourceTree = "<group>"; };
+		84CAFA808CCBD6DA2580613798EB1967 /* Pods-JXPayKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXPayKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8727371CADB63C1F507994DC454BFF15 /* JXAlipayProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXAlipayProvider.m; path = JXPayKit/Alipay/JXAlipayProvider.m; sourceTree = "<group>"; };
+		876AE537680841A49BB845BFD3248FC0 /* Pods-JXPayKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXPayKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8E37CB2E7FE0781EFFC7CB95E7957EA8 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.7.1/WXApiObject.h; sourceTree = "<group>"; };
+		8E60C7F7952419673FF885699703DE91 /* JXPayKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXPayKit-umbrella.h"; sourceTree = "<group>"; };
+		9C58674CD42D8CEB295C6E4ADC3463C4 /* Pods-JXPayKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXPayKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		9C88CA24E8347E1144E7A6734E82EA54 /* Pods-JXPayKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXPayKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F2B4BDAC2B10C0F4E8A5E0A0E394D03 /* Pods-JXPayKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXPayKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A584F2895195886AEE3789BFF70DA08A /* JXPayKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXPayKit-umbrella.h"; sourceTree = "<group>"; };
-		AF8D37D629BC5DCBB79191EBF7CE7DB3 /* JXPayKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXPayKit.release.xcconfig; sourceTree = "<group>"; };
-		B06F63E174848239FCC41D2571556083 /* Pods-JXPayKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JXPayKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B89E32B3B95B59C70F008F6E579B4C29 /* Pods-JXPayKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXPayKit_Example-dummy.m"; sourceTree = "<group>"; };
-		BCF1CCD08981D6E0E06BE73E269B5554 /* Pods-JXPayKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXPayKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C7DA54BDEF10C4CE1A831FBCC61FEA09 /* Pods-JXPayKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JXPayKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CA4629A2E5B0A87B2836A9977E15D79B /* JXPayKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JXPayKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CB561C38A42F59CCFF3E87E9CAAC6D92 /* Pods-JXPayKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXPayKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B5127F8BB7F3DA2078B201FFCA0E411A /* JXPayKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JXPayKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCB7124A158B64A3D2598B37090EC0A6 /* Pods-JXPayKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXPayKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CB10BA92A42842F616ACB6822FFFD62D /* Pods-JXPayKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXPayKit_Example-dummy.m"; sourceTree = "<group>"; };
 		CC7F0CF0DE4BFB30F9A7948A23BB5775 /* JXPayKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JXPayKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2A6D0C8999C6E3F42AC05B771941924 /* Pods-JXPayKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXPayKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D4C465FEFAFB387D827CAFF43044F7EC /* Pods-JXPayKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXPayKit_Example-Info.plist"; sourceTree = "<group>"; };
-		D8996600498A1CEC433DD1D2BFE906E0 /* Pods-JXPayKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXPayKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		E44F0167A7CAA6BB0B17896F44C9AD15 /* Pods-JXPayKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXPayKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0F7F37F70A41D23FD153C2FBCB4B3F3 /* WechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
+		DCE0E84D652B106AD35660DCD16274D0 /* Pods-JXPayKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JXPayKit_Tests.modulemap"; sourceTree = "<group>"; };
+		E626857E8C116FDC6980210D34F129EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E88D76AAF43A46B13B440F3B99C59B5F /* Pods_JXPayKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JXPayKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE1C22AF2040A30C907DEBA4EAB93194 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F869029BCC35EFF7C92CC0BB2D2B3269 /* JXPayKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXPayKit-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		37FACCC0C21BE91E28ECFF5AEFEE8ED1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7CE420BCCE224DCFC9CA685F18E8A2F5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3A2CFA094E46291E65118E8847675AB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,96 +133,140 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		405E4AE4800B4A4BE9F3EEBD06B57B20 /* Frameworks */ = {
+		A5D92E1B6518BE7C6B5B0FFCA184EEAA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE40736B5A0008F0E932DD29B3AA79A5 /* Foundation.framework in Frameworks */,
+				0F94B5150A36C2F9699A29B1CCB81EAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E68A46FFF40025FECAAAB0E60DF7D5F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7925BDB17D435AB6F2BE7AEAD46B7F9B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08DC0B918CAFB6037E6D95BDC8111297 /* Pod */ = {
+		1BE251E19DFE3C01D2090637FB099F2E /* Alipay */ = {
 			isa = PBXGroup;
 			children = (
-				CA4629A2E5B0A87B2836A9977E15D79B /* JXPayKit.podspec */,
-				FE1C22AF2040A30C907DEBA4EAB93194 /* LICENSE */,
-				4CD00E4D413FED37100929DAA4E3F2CF /* README.md */,
+				2109C61922EA80F6E5F3164DB418D62F /* JXAlipayProvider.h */,
+				8727371CADB63C1F507994DC454BFF15 /* JXAlipayProvider.m */,
+			);
+			name = Alipay;
+			sourceTree = "<group>";
+		};
+		23FC7F05ED77962DAFA40276D9C15DBD /* ApplePay */ = {
+			isa = PBXGroup;
+			children = (
+				1E69534F16251D5981694144DC79D67F /* JXApplePayProvider.h */,
+				2FC056E72B6C4DF063CF6FF431B8E5AB /* JXApplePayProvider.m */,
+			);
+			name = ApplePay;
+			sourceTree = "<group>";
+		};
+		37A31657954087BEC8E7BB571AE2301C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B5127F8BB7F3DA2078B201FFCA0E411A /* JXPayKit.podspec */,
+				4FDEEF1AC3B4B5E986112D049FCBBA74 /* LICENSE */,
+				E626857E8C116FDC6980210D34F129EA /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		25277EFB946A46302F83555E2FDD653D /* Support Files */ = {
+		4EFCC29DB2A6B75D10AE3E12DE6146E9 /* WechatOpenSDK */ = {
 			isa = PBXGroup;
 			children = (
-				13DAB1EAE2A192F762138911F69BDE54 /* JXPayKit.modulemap */,
-				1FC220295CC4A611D33E085E38CF7A40 /* JXPayKit-dummy.m */,
-				2C4A0346A1B7CC97714A3BCA4C92404C /* JXPayKit-Info.plist */,
-				4BC6945E27820E348F404D56317909B7 /* JXPayKit-prefix.pch */,
-				A584F2895195886AEE3789BFF70DA08A /* JXPayKit-umbrella.h */,
-				0979ECD110470DCB61F42C675D634579 /* JXPayKit.debug.xcconfig */,
-				AF8D37D629BC5DCBB79191EBF7CE7DB3 /* JXPayKit.release.xcconfig */,
+				6A20403E38D94F39946C7A709DAFB72C /* WechatAuthSDK.h */,
+				664A5A95C192C1C30FC0EE0FBD4405FF /* WXApi.h */,
+				8E37CB2E7FE0781EFFC7CB95E7957EA8 /* WXApiObject.h */,
+				8A0B8B0F8341A04CA487D2802F707FE8 /* Frameworks */,
+				63F7E62AC6F50D87E09A5929874B8F74 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JXPayKit";
+			path = WechatOpenSDK;
 			sourceTree = "<group>";
 		};
-		4080D48E38B27385AE9BE53CC6641AB4 /* Pods-JXPayKit_Example */ = {
+		504E9947F937F4E2E0F3394F2C6FAC19 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				03915D12CA566581EDD04EEA3CBD0DFC /* Pods-JXPayKit_Example.modulemap */,
-				C7DA54BDEF10C4CE1A831FBCC61FEA09 /* Pods-JXPayKit_Example-acknowledgements.markdown */,
-				D2A6D0C8999C6E3F42AC05B771941924 /* Pods-JXPayKit_Example-acknowledgements.plist */,
-				B89E32B3B95B59C70F008F6E579B4C29 /* Pods-JXPayKit_Example-dummy.m */,
-				B06F63E174848239FCC41D2571556083 /* Pods-JXPayKit_Example-frameworks.sh */,
-				D4C465FEFAFB387D827CAFF43044F7EC /* Pods-JXPayKit_Example-Info.plist */,
-				D8996600498A1CEC433DD1D2BFE906E0 /* Pods-JXPayKit_Example-umbrella.h */,
-				0C638ECF8450FEB2552468DC2E23CEC2 /* Pods-JXPayKit_Example.debug.xcconfig */,
-				CB561C38A42F59CCFF3E87E9CAAC6D92 /* Pods-JXPayKit_Example.release.xcconfig */,
+				5942F14174D8585B4CD240879705C359 /* JXPayKit.h */,
+				7FE5DADD8B4081B8E7AC383C2C2870AA /* JXPayKit.m */,
+				79DA649F256905B9007906D8 /* JXPayProvider.h */,
+				79DA64A0256905B9007906D8 /* JXPayProvider.m */,
+				79DA64AF256909DE007906D8 /* JXPayError.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		52C06D29DE8A74D8B72B83758947D95F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EFCC29DB2A6B75D10AE3E12DE6146E9 /* WechatOpenSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		63F7E62AC6F50D87E09A5929874B8F74 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0F7F37F70A41D23FD153C2FBCB4B3F3 /* WechatOpenSDK.debug.xcconfig */,
+				3DF14C1137882BFDBFE3D846088EC9CD /* WechatOpenSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
+			sourceTree = "<group>";
+		};
+		703A1CC0346B13FBDA09612B38C00900 /* JXPayKit */ = {
+			isa = PBXGroup;
+			children = (
+				1BE251E19DFE3C01D2090637FB099F2E /* Alipay */,
+				23FC7F05ED77962DAFA40276D9C15DBD /* ApplePay */,
+				504E9947F937F4E2E0F3394F2C6FAC19 /* Core */,
+				37A31657954087BEC8E7BB571AE2301C /* Pod */,
+				C11D6A032D63B8AFF61A5084FD9BAC2D /* Support Files */,
+				B1883EDD0E3FB4220572AE04340E5632 /* WXPay */,
+			);
+			name = JXPayKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		794E46077148207E8E3122B4FA8D3CD5 /* Pods-JXPayKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				727CB20FDA8FBDC470621079A7309F35 /* Pods-JXPayKit_Example.modulemap */,
+				2873E6C9DB84B5089CCB96579C886A97 /* Pods-JXPayKit_Example-acknowledgements.markdown */,
+				71AA876DFB47E47BF3BDD21B541649B0 /* Pods-JXPayKit_Example-acknowledgements.plist */,
+				CB10BA92A42842F616ACB6822FFFD62D /* Pods-JXPayKit_Example-dummy.m */,
+				776207727499E584FF77AF45DFC6CF87 /* Pods-JXPayKit_Example-Info.plist */,
+				9C88CA24E8347E1144E7A6734E82EA54 /* Pods-JXPayKit_Example-umbrella.h */,
+				BCB7124A158B64A3D2598B37090EC0A6 /* Pods-JXPayKit_Example.debug.xcconfig */,
+				07B38B01AA1BB0CF77FF5BE75123ED3E /* Pods-JXPayKit_Example.release.xcconfig */,
 			);
 			name = "Pods-JXPayKit_Example";
 			path = "Target Support Files/Pods-JXPayKit_Example";
 			sourceTree = "<group>";
 		};
-		6073AC0E287456D7A4D1C734966D763E /* Pods-JXPayKit_Tests */ = {
+		7C18B468028AFD0CDB78400FFA044C37 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				96D1EE67DE71AA2CE5E9DADCA2306A49 /* Pods-JXPayKit_Tests.modulemap */,
-				14EFD2B9392C98DA9AC67911E1C45425 /* Pods-JXPayKit_Tests-acknowledgements.markdown */,
-				E44F0167A7CAA6BB0B17896F44C9AD15 /* Pods-JXPayKit_Tests-acknowledgements.plist */,
-				8CC78A9D0702A41F1CDCA2606B6D914E /* Pods-JXPayKit_Tests-dummy.m */,
-				4517299E82826C2B45ACEB911F520CE4 /* Pods-JXPayKit_Tests-Info.plist */,
-				BCF1CCD08981D6E0E06BE73E269B5554 /* Pods-JXPayKit_Tests-umbrella.h */,
-				727E366CEF6AE4184C9D922B99AF88C3 /* Pods-JXPayKit_Tests.debug.xcconfig */,
-				9F2B4BDAC2B10C0F4E8A5E0A0E394D03 /* Pods-JXPayKit_Tests.release.xcconfig */,
-			);
-			name = "Pods-JXPayKit_Tests";
-			path = "Target Support Files/Pods-JXPayKit_Tests";
-			sourceTree = "<group>";
-		};
-		7D106CCE7AFFC677AE2A26C39DFB5459 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4080D48E38B27385AE9BE53CC6641AB4 /* Pods-JXPayKit_Example */,
-				6073AC0E287456D7A4D1C734966D763E /* Pods-JXPayKit_Tests */,
+				794E46077148207E8E3122B4FA8D3CD5 /* Pods-JXPayKit_Example */,
+				E7ED971AE5547DF1A3090B3EAB87E8A5 /* Pods-JXPayKit_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8D67A39D7968C6824B90F6BF2A41042F /* JXPayKit */ = {
+		8A0B8B0F8341A04CA487D2802F707FE8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				08DC0B918CAFB6037E6D95BDC8111297 /* Pod */,
-				25277EFB946A46302F83555E2FDD653D /* Support Files */,
-				79A396072568D0A9001873B1 /* PayKit.swift */,
-				79A396542568DB7E001873B1 /* WXPayProvider.swift */,
-				79A3965E2568DBA0001873B1 /* AlipayProvider.swift */,
-				79A396662568DBB0001873B1 /* ApplePayProvider.swift */,
+				30BDAE1B5E0C61D231041F45D886AC95 /* libWeChatSDK.a */,
 			);
-			name = JXPayKit;
-			path = ../..;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A1F68D06E976118DB458B0CD44471CA0 /* Products */ = {
@@ -197,12 +279,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C04C24F19F4CF0F3F7128EFACF72EC03 /* Development Pods */ = {
+		B1883EDD0E3FB4220572AE04340E5632 /* WXPay */ = {
 			isa = PBXGroup;
 			children = (
-				8D67A39D7968C6824B90F6BF2A41042F /* JXPayKit */,
+				7F08C6CE0C8F383A179A7495BE688123 /* JXWXPayProvider.h */,
+				814F9057544F77AE459D5F30E0B3EA28 /* JXWXPayProvider.m */,
 			);
-			name = "Development Pods";
+			name = WXPay;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -213,14 +296,30 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C11D6A032D63B8AFF61A5084FD9BAC2D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31CC07C51491CCA5F5079742B2CCFEDA /* JXPayKit.modulemap */,
+				F869029BCC35EFF7C92CC0BB2D2B3269 /* JXPayKit-dummy.m */,
+				580E8850C5B1DF6E6522232C8F6C3D0E /* JXPayKit-Info.plist */,
+				4D94BB26FCC42BDFDEEE3093C86E3C8B /* JXPayKit-prefix.pch */,
+				8E60C7F7952419673FF885699703DE91 /* JXPayKit-umbrella.h */,
+				002ECA031EDA0735E8557D43D0CD71FA /* JXPayKit.debug.xcconfig */,
+				763E28CAF9EAAB20B9361FDF6E2B537A /* JXPayKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JXPayKit";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C04C24F19F4CF0F3F7128EFACF72EC03 /* Development Pods */,
+				F66CA777738AF0309710714F3E38E6DA /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				52C06D29DE8A74D8B72B83758947D95F /* Pods */,
 				A1F68D06E976118DB458B0CD44471CA0 /* Products */,
-				7D106CCE7AFFC677AE2A26C39DFB5459 /* Targets Support Files */,
+				7C18B468028AFD0CDB78400FFA044C37 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -232,14 +331,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E7ED971AE5547DF1A3090B3EAB87E8A5 /* Pods-JXPayKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DCE0E84D652B106AD35660DCD16274D0 /* Pods-JXPayKit_Tests.modulemap */,
+				2C1ECF3398BC5FCC32A275998834380E /* Pods-JXPayKit_Tests-acknowledgements.markdown */,
+				0B6FC9A16027DDC5EE4733F50585B2BA /* Pods-JXPayKit_Tests-acknowledgements.plist */,
+				2EFAB7801C439876B628C16EF3E76F27 /* Pods-JXPayKit_Tests-dummy.m */,
+				9C58674CD42D8CEB295C6E4ADC3463C4 /* Pods-JXPayKit_Tests-Info.plist */,
+				1616F0D5528CFA4441B079DEDEB2E2E5 /* Pods-JXPayKit_Tests-umbrella.h */,
+				84CAFA808CCBD6DA2580613798EB1967 /* Pods-JXPayKit_Tests.debug.xcconfig */,
+				876AE537680841A49BB845BFD3248FC0 /* Pods-JXPayKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-JXPayKit_Tests";
+			path = "Target Support Files/Pods-JXPayKit_Tests";
+			sourceTree = "<group>";
+		};
+		F66CA777738AF0309710714F3E38E6DA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				703A1CC0346B13FBDA09612B38C00900 /* JXPayKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2771D37BCD2692AB36A7A2525A419D30 /* Headers */ = {
+		2C1437DEEA8D483BA248ADAB4337BC12 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53F825CA3CB74180E64B1C55F06A2157 /* JXPayKit-umbrella.h in Headers */,
+				E79783C41E284C7AD31987154FF544F0 /* Pods-JXPayKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,11 +374,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		579E73D9573176E17497591E8A6D0181 /* Headers */ = {
+		53B1EF9176EFDBABA2126FEFBA6E35AF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0E5478110EEB49847A41B9E4BA5DFB5 /* Pods-JXPayKit_Example-umbrella.h in Headers */,
+				2164284EF42E8BCCA7D91D083DECA98E /* JXAlipayProvider.h in Headers */,
+				EAF3CFDDEDB8E84CB51F024061BDE511 /* JXApplePayProvider.h in Headers */,
+				79DA64B0256909DE007906D8 /* JXPayError.h in Headers */,
+				BA5226503489196D9BF4FFFA502F3C19 /* JXPayKit-umbrella.h in Headers */,
+				D2EBB9FDF6108678C070E95B2EE5B2A7 /* JXPayKit.h in Headers */,
+				1AE30209B98CFB72698BB980CBC67EE4 /* JXWXPayProvider.h in Headers */,
+				79DA64A1256905B9007906D8 /* JXPayProvider.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,17 +412,18 @@
 		};
 		815D22E70637DD69BC0572C172705C5D /* Pods-JXPayKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D69C52C6D77E7F8A96FCB89C6D6CD24 /* Build configuration list for PBXNativeTarget "Pods-JXPayKit_Example" */;
+			buildConfigurationList = B62DE746F7845D7C401D2B504039BBB1 /* Build configuration list for PBXNativeTarget "Pods-JXPayKit_Example" */;
 			buildPhases = (
-				579E73D9573176E17497591E8A6D0181 /* Headers */,
-				5BB7521E8A63811B833495C89A077BCD /* Sources */,
-				405E4AE4800B4A4BE9F3EEBD06B57B20 /* Frameworks */,
-				3BE80062D7DEC799243CE107898817B5 /* Resources */,
+				2C1437DEEA8D483BA248ADAB4337BC12 /* Headers */,
+				4084F78071E1A48229448D4FCBB3A794 /* Sources */,
+				A5D92E1B6518BE7C6B5B0FFCA184EEAA /* Frameworks */,
+				14A3D417810CDA3CFDBCFF340B276917 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0E947EF54A3B35D8A3063EFC9BECE586 /* PBXTargetDependency */,
+				E5F58323F8E58B21215C57EA2490D215 /* PBXTargetDependency */,
+				BECD7577A8FF4CC11F7AB2AC92D6907B /* PBXTargetDependency */,
 			);
 			name = "Pods-JXPayKit_Example";
 			productName = "Pods-JXPayKit_Example";
@@ -302,16 +432,17 @@
 		};
 		8ADA836FA5240BCEB0B7E6A384C5234D /* JXPayKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1756A9B3AA61686B2657DF7EFD357C95 /* Build configuration list for PBXNativeTarget "JXPayKit" */;
+			buildConfigurationList = 040B845453420DC77DF2C0D1B97AC21C /* Build configuration list for PBXNativeTarget "JXPayKit" */;
 			buildPhases = (
-				2771D37BCD2692AB36A7A2525A419D30 /* Headers */,
-				86D353FC8796B4BAFEA190E4303C7AC7 /* Sources */,
-				37FACCC0C21BE91E28ECFF5AEFEE8ED1 /* Frameworks */,
-				98E026A11E81C6809E0C44EB33AC0496 /* Resources */,
+				53B1EF9176EFDBABA2126FEFBA6E35AF /* Headers */,
+				714DC841B477C6628CD6213A700C4140 /* Sources */,
+				E68A46FFF40025FECAAAB0E60DF7D5F1 /* Frameworks */,
+				94D2E54084368AE4F88407A78DC99B25 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3582E17D3F9CD8CB7BF680A043F380E4 /* PBXTargetDependency */,
 			);
 			name = JXPayKit;
 			productName = JXPayKit;
@@ -343,19 +474,20 @@
 				8ADA836FA5240BCEB0B7E6A384C5234D /* JXPayKit */,
 				815D22E70637DD69BC0572C172705C5D /* Pods-JXPayKit_Example */,
 				80FFD68574189AE979868F918584C666 /* Pods-JXPayKit_Tests */,
+				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3BE80062D7DEC799243CE107898817B5 /* Resources */ = {
+		14A3D417810CDA3CFDBCFF340B276917 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98E026A11E81C6809E0C44EB33AC0496 /* Resources */ = {
+		94D2E54084368AE4F88407A78DC99B25 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -380,34 +512,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BB7521E8A63811B833495C89A077BCD /* Sources */ = {
+		4084F78071E1A48229448D4FCBB3A794 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C42797BBA5826BA42C4FE89B4E5D0D8 /* Pods-JXPayKit_Example-dummy.m in Sources */,
+				9886C0860D08C472621BCA80B426D7CF /* Pods-JXPayKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86D353FC8796B4BAFEA190E4303C7AC7 /* Sources */ = {
+		714DC841B477C6628CD6213A700C4140 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0E35B8977A4CCC9327DD6AE0B8B0F4B /* JXPayKit-dummy.m in Sources */,
-				79A396552568DB7E001873B1 /* WXPayProvider.swift in Sources */,
-				79A396672568DBB0001873B1 /* ApplePayProvider.swift in Sources */,
-				79A3965F2568DBA0001873B1 /* AlipayProvider.swift in Sources */,
-				79A396082568D0A9001873B1 /* PayKit.swift in Sources */,
+				E055F940711FC7BCB83F407220365C92 /* JXAlipayProvider.m in Sources */,
+				930ECB4C8DA1B948590DFE77CDC937E0 /* JXApplePayProvider.m in Sources */,
+				79520B6EEDEC46FA54E5C27D27546001 /* JXPayKit-dummy.m in Sources */,
+				79DA64A2256905B9007906D8 /* JXPayProvider.m in Sources */,
+				A80DDEB94E48E1EF053C5D3BD477BC97 /* JXPayKit.m in Sources */,
+				C723D9A1F514B5C4C3B3A379F90E0461 /* JXWXPayProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0E947EF54A3B35D8A3063EFC9BECE586 /* PBXTargetDependency */ = {
+		3582E17D3F9CD8CB7BF680A043F380E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = JXPayKit;
-			target = 8ADA836FA5240BCEB0B7E6A384C5234D /* JXPayKit */;
-			targetProxy = 39B73EEC52C54C1DE555364A227C5E1D /* PBXContainerItemProxy */;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 3D08178F1CA98ABD0B0DC65FEEF9FFA2 /* PBXContainerItemProxy */;
+		};
+		BECD7577A8FF4CC11F7AB2AC92D6907B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = D62EC317C5BCF7A18ADD74D7B8691713 /* PBXContainerItemProxy */;
 		};
 		D5E28C5BB7A2D1E3C9A34CA8953612D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -415,202 +554,16 @@
 			target = 815D22E70637DD69BC0572C172705C5D /* Pods-JXPayKit_Example */;
 			targetProxy = 408B662037777076B4E4E4714C3FE2A2 /* PBXContainerItemProxy */;
 		};
+		E5F58323F8E58B21215C57EA2490D215 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXPayKit;
+			target = 8ADA836FA5240BCEB0B7E6A384C5234D /* JXPayKit */;
+			targetProxy = 96ABFA384973284E666AC04C59911E07 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03AAE458B9A045E1D53A27A66D49C468 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF8D37D629BC5DCBB79191EBF7CE7DB3 /* JXPayKit.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JXPayKit/JXPayKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JXPayKit/JXPayKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JXPayKit/JXPayKit.modulemap";
-				PRODUCT_MODULE_NAME = JXPayKit;
-				PRODUCT_NAME = JXPayKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		03DD428CCF1ED7ED69A9659D677AAB7F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C638ECF8450FEB2552468DC2E23CEC2 /* Pods-JXPayKit_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JXPayKit_Example/Pods-JXPayKit_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JXPayKit_Example/Pods-JXPayKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		08525E1542411F0DC10C4726E7DCAA75 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB561C38A42F59CCFF3E87E9CAAC6D92 /* Pods-JXPayKit_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JXPayKit_Example/Pods-JXPayKit_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JXPayKit_Example/Pods-JXPayKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		677A5D3A7180CDE706275EFFF2BAEE06 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F2B4BDAC2B10C0F4E8A5E0A0E394D03 /* Pods-JXPayKit_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JXPayKit_Tests/Pods-JXPayKit_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JXPayKit_Tests/Pods-JXPayKit_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -661,7 +614,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -674,11 +627,25 @@
 			};
 			name = Debug;
 		};
-		DAE993C2B600E224E880E6FB96421D14 /* Debug */ = {
+		2BF9D697B30D4085F4E00CD050658A4E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 727E366CEF6AE4184C9D922B99AF88C3 /* Pods-JXPayKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = D0F7F37F70A41D23FD153C2FBCB4B3F3 /* WechatOpenSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F54FD6A69F348A12132EB847F519B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 876AE537680841A49BB845BFD3248FC0 /* Pods-JXPayKit_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -690,7 +657,42 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JXPayKit_Tests/Pods-JXPayKit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXPayKit_Tests/Pods-JXPayKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72513FC568AED7682CB6987E7188A383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84CAFA808CCBD6DA2580613798EB1967 /* Pods-JXPayKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JXPayKit_Tests/Pods-JXPayKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JXPayKit_Tests/Pods-JXPayKit_Tests.modulemap";
@@ -707,10 +709,46 @@
 			};
 			name = Debug;
 		};
-		FE5356A9703280FCFFAF3F42C040C09B /* Debug */ = {
+		7B281790DAD883551EC0A26BD7D82D4A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0979ECD110470DCB61F42C675D634579 /* JXPayKit.debug.xcconfig */;
+			baseConfigurationReference = 07B38B01AA1BB0CF77FF5BE75123ED3E /* Pods-JXPayKit_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JXPayKit_Example/Pods-JXPayKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXPayKit_Example/Pods-JXPayKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D5F5C6779EACF9AFD5D7004F3D72CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 763E28CAF9EAAB20B9361FDF6E2B537A /* JXPayKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -723,8 +761,102 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JXPayKit/JXPayKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JXPayKit/JXPayKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/JXPayKit/JXPayKit.modulemap";
+				PRODUCT_MODULE_NAME = JXPayKit;
+				PRODUCT_NAME = JXPayKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B073EF64A48A28725F2F9565F5A090F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002ECA031EDA0735E8557D43D0CD71FA /* JXPayKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JXPayKit/JXPayKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXPayKit/JXPayKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/JXPayKit/JXPayKit.modulemap";
 				PRODUCT_MODULE_NAME = JXPayKit;
 				PRODUCT_NAME = JXPayKit;
@@ -738,14 +870,62 @@
 			};
 			name = Debug;
 		};
+		C6CBF3BD0545FEB0B46D447C1C5FD0B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF14C1137882BFDBFE3D846088EC9CD /* WechatOpenSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E02A0FA494869CF46E547C4E953DD41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCB7124A158B64A3D2598B37090EC0A6 /* Pods-JXPayKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JXPayKit_Example/Pods-JXPayKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXPayKit_Example/Pods-JXPayKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1756A9B3AA61686B2657DF7EFD357C95 /* Build configuration list for PBXNativeTarget "JXPayKit" */ = {
+		040B845453420DC77DF2C0D1B97AC21C /* Build configuration list for PBXNativeTarget "JXPayKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE5356A9703280FCFFAF3F42C040C09B /* Debug */,
-				03AAE458B9A045E1D53A27A66D49C468 /* Release */,
+				B073EF64A48A28725F2F9565F5A090F0 /* Debug */,
+				8D5F5C6779EACF9AFD5D7004F3D72CAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -753,17 +933,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D69C52C6D77E7F8A96FCB89C6D6CD24 /* Build configuration list for PBXNativeTarget "Pods-JXPayKit_Example" */ = {
+		A4B299C8AE02758994585407435CEFB2 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03DD428CCF1ED7ED69A9659D677AAB7F /* Debug */,
-				08525E1542411F0DC10C4726E7DCAA75 /* Release */,
+				2BF9D697B30D4085F4E00CD050658A4E /* Debug */,
+				C6CBF3BD0545FEB0B46D447C1C5FD0B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -771,8 +951,17 @@
 		A5F069240EECE482897DEAC62EF12339 /* Build configuration list for PBXNativeTarget "Pods-JXPayKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAE993C2B600E224E880E6FB96421D14 /* Debug */,
-				677A5D3A7180CDE706275EFFF2BAEE06 /* Release */,
+				72513FC568AED7682CB6987E7188A383 /* Debug */,
+				2F54FD6A69F348A12132EB847F519B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62DE746F7845D7C401D2B504039BBB1 /* Build configuration list for PBXNativeTarget "Pods-JXPayKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02A0FA494869CF46E547C4E953DD41C /* Debug */,
+				7B281790DAD883551EC0A26BD7D82D4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

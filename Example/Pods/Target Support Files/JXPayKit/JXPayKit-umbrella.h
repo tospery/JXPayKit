@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "JXAlipayProvider.h"
+#import "JXApplePayProvider.h"
+#import "JXPayKit.h"
+#import "JXWXPayProvider.h"
 
 FOUNDATION_EXPORT double JXPayKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char JXPayKitVersionString[];

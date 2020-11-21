@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JXPayKit'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'iOS Pay Framework.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-						iOS Pay Framework using Swift.
+						iOS Pay Framework using ObjC.
                        DESC
 
   s.homepage         = 'https://github.com/tospery/JXPayKit'
@@ -29,27 +29,32 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.requires_arc = true
-  s.swift_version = '5.0'
+  s.static_framework = true
   s.ios.deployment_target = '10.0'
 
+  s.frameworks = 'Foundation'
+  # s.source_files = 'JXPayKit/Classes/**/*'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  
   s.default_subspec = "Core"
-
+  
   s.subspec "Core" do |ss|
-    ss.source_files = "JXPayKit/*.swift"
+    ss.source_files = "JXPayKit/*.{h,m}"
   end
   
   s.subspec "ApplePay" do |ss|
-    ss.source_files = "JXPayKit/ApplePay/*.swift"
+    ss.source_files = "JXPayKit/ApplePay/*.{h,m}"
     ss.dependency "JXPayKit/Core"
   end
   
   s.subspec "WXPay" do |ss|
-    ss.source_files = "JXPayKit/WXPay/*.swift"
-    ss.dependency "JXPayKit/Core"
+    ss.source_files = "JXPayKit/WXPay/*.{h,m}"
+  	ss.dependency 'WechatOpenSDK', '1.8.7.1'
+	ss.dependency "JXPayKit/Core"
   end
   
   s.subspec "Alipay" do |ss|
-    ss.source_files = "JXPayKit/Alipay/*.swift"
+    ss.source_files = "JXPayKit/Alipay/*.{h,m}"
     ss.dependency "JXPayKit/Core"
   end
   
