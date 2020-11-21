@@ -10,7 +10,10 @@
 		1343C600DA85453102CE87F856C8D9F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		2C42797BBA5826BA42C4FE89B4E5D0D8 /* Pods-JXPayKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B89E32B3B95B59C70F008F6E579B4C29 /* Pods-JXPayKit_Example-dummy.m */; };
 		53F825CA3CB74180E64B1C55F06A2157 /* JXPayKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A584F2895195886AEE3789BFF70DA08A /* JXPayKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79A396082568D0A9001873B1 /* JXPayKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A396072568D0A9001873B1 /* JXPayKit.swift */; };
+		79A396082568D0A9001873B1 /* PayKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A396072568D0A9001873B1 /* PayKit.swift */; };
+		79A396552568DB7E001873B1 /* WXPayProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A396542568DB7E001873B1 /* WXPayProvider.swift */; };
+		79A3965F2568DBA0001873B1 /* AlipayProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A3965E2568DBA0001873B1 /* AlipayProvider.swift */; };
+		79A396672568DBB0001873B1 /* ApplePayProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A396662568DBB0001873B1 /* ApplePayProvider.swift */; };
 		7CE420BCCE224DCFC9CA685F18E8A2F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		97F76B0A64BD9F453B233598A077EE46 /* Pods-JXPayKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC78A9D0702A41F1CDCA2606B6D914E /* Pods-JXPayKit_Tests-dummy.m */; };
 		B0E35B8977A4CCC9327DD6AE0B8B0F4B /* JXPayKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC220295CC4A611D33E085E38CF7A40 /* JXPayKit-dummy.m */; };
@@ -50,7 +53,10 @@
 		4BC6945E27820E348F404D56317909B7 /* JXPayKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXPayKit-prefix.pch"; sourceTree = "<group>"; };
 		4CD00E4D413FED37100929DAA4E3F2CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		727E366CEF6AE4184C9D922B99AF88C3 /* Pods-JXPayKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXPayKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		79A396072568D0A9001873B1 /* JXPayKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JXPayKit.swift; path = JXPayKit/Classes/JXPayKit.swift; sourceTree = "<group>"; };
+		79A396072568D0A9001873B1 /* PayKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PayKit.swift; path = JXPayKit/Classes/PayKit.swift; sourceTree = "<group>"; };
+		79A396542568DB7E001873B1 /* WXPayProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WXPayProvider.swift; path = JXPayKit/Classes/WXPay/WXPayProvider.swift; sourceTree = "<group>"; };
+		79A3965E2568DBA0001873B1 /* AlipayProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlipayProvider.swift; path = JXPayKit/Classes/Alipay/AlipayProvider.swift; sourceTree = "<group>"; };
+		79A396662568DBB0001873B1 /* ApplePayProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ApplePayProvider.swift; path = JXPayKit/Classes/ApplePay/ApplePayProvider.swift; sourceTree = "<group>"; };
 		8CC78A9D0702A41F1CDCA2606B6D914E /* Pods-JXPayKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXPayKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		96D1EE67DE71AA2CE5E9DADCA2306A49 /* Pods-JXPayKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JXPayKit_Tests.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -172,7 +178,10 @@
 			children = (
 				08DC0B918CAFB6037E6D95BDC8111297 /* Pod */,
 				25277EFB946A46302F83555E2FDD653D /* Support Files */,
-				79A396072568D0A9001873B1 /* JXPayKit.swift */,
+				79A396072568D0A9001873B1 /* PayKit.swift */,
+				79A396542568DB7E001873B1 /* WXPayProvider.swift */,
+				79A3965E2568DBA0001873B1 /* AlipayProvider.swift */,
+				79A396662568DBB0001873B1 /* ApplePayProvider.swift */,
 			);
 			name = JXPayKit;
 			path = ../..;
@@ -384,7 +393,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0E35B8977A4CCC9327DD6AE0B8B0F4B /* JXPayKit-dummy.m in Sources */,
-				79A396082568D0A9001873B1 /* JXPayKit.swift in Sources */,
+				79A396552568DB7E001873B1 /* WXPayProvider.swift in Sources */,
+				79A396672568DBB0001873B1 /* ApplePayProvider.swift in Sources */,
+				79A3965F2568DBA0001873B1 /* AlipayProvider.swift in Sources */,
+				79A396082568D0A9001873B1 /* PayKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
