@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JXPayKit_Example' do
+  pod 'JXPayKit', :path => '../'
+
+  target 'JXPayKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

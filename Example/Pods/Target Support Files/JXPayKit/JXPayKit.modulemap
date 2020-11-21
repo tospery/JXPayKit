@@ -1,0 +1,6 @@
+framework module JXPayKit {
+  umbrella header "JXPayKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

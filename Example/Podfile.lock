@@ -1,0 +1,16 @@
+PODS:
+  - JXPayKit (0.1.0)
+
+DEPENDENCIES:
+  - JXPayKit (from `../`)
+
+EXTERNAL SOURCES:
+  JXPayKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JXPayKit: e5516bdb915ae92fb097ab4759ab11a843a17815
+
+PODFILE CHECKSUM: 43aacc71bffb1dbbb8330f82bc7457c5dd77b8ab
+
+COCOAPODS: 1.9.1
