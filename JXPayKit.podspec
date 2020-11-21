@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JXPayKit'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'iOS Pay Framework.'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,25 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'JXPayKit/Classes/**/*'
+  s.default_subspec = "Core"
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'Foundation'
-
+  s.subspec "Core" do |ss|
+    ss.source_files = "JXPayKit/*.swift"
+  end
+  
+  s.subspec "ApplePay" do |ss|
+    ss.source_files = "JXPayKit/ApplePay/*.swift"
+    ss.dependency "JXPayKit/Core"
+  end
+  
+  s.subspec "WXPay" do |ss|
+    ss.source_files = "JXPayKit/WXPay/*.swift"
+    ss.dependency "JXPayKit/Core"
+  end
+  
+  s.subspec "Alipay" do |ss|
+    ss.source_files = "JXPayKit/Alipay/*.swift"
+    ss.dependency "JXPayKit/Core"
+  end
+  
 end
